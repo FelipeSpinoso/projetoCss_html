@@ -1,0 +1,110 @@
+#headerBorder{
+color: white;
+font-size: 40px;
+font-weight: bold;
+
+}
+#demo-table {
+    font: 100% sans-serif;
+    background-color: #efe;
+    border-collapse: collapse;
+    empty-cells: show;
+    border: 1px solid rgb(218, 209, 88);
+    }
+  
+  #demo-table > caption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 200%;
+    border-bottom: .2em solid #4ca;
+    margin-bottom: .5em;
+    }
+  
+  
+  /* basic shared rules */
+  #demo-table th,
+  #demo-table td {
+    text-align: right;
+    padding-right: .5em;
+    }
+  
+  #demo-table th {
+    font-weight: bold;
+    padding-left: .5em;
+    }
+  
+  
+  /* header */
+  #demo-table > thead > tr:first-child > th {
+    text-align: center;
+  }
+  
+  #demo-table > thead > tr + tr > th {
+    font-style: italic;
+    }
+  
+  /* fix size of superscript */
+  #demo-table sup {
+    font-size: 75%;
+    }
+  
+  /* body */
+  #demo-table td {
+    background-color: orange;
+    padding:.5em .5em .5em 3em;
+    }
+  
+  #demo-table tbody th:after {
+    content: ":";
+    }
+.logo{
+   
+    background-attachment: scroll;
+    background-color: red;
+    background-position: right;
+    
+}
+.positionBorder{
+    border-style: groove;
+    background:gainsboro;
+    border width: 400px;
+    text width: 70%;
+    text-align: justify;
+    border: 0px solid black; 
+    padding: 50px; 
+    width: 700px;
+    height: 100px;
+    letter-spacing: 0.1px;
+    margin-left:+50px;
+	margin-top:30px;
+  
+}
+
+.listaOrdenada{
+    font-family: Helvetica ;
+    border:2px solid black; 
+    padding: 7px; 
+    text-align:justify;
+    width: 300px;
+    height: 50px;
+    letter-spacing: 0.3px;
+    margin-left:+70px;
+    margin-top:40px;
+    background: yellow;
+}
+.font{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ h2{
+     background: red;
+     color: white;
+ }
+ button{
+     background: orange;
+ }
+ 
+  
+
